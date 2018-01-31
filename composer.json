@@ -1,0 +1,16 @@
+{
+  "name": "deflou/user",
+  "description": "User package for DeFlou",
+  "keywords": ["user", "group", "identity", "deflou"],
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=7.0.0",
+    "deflou/service-describer": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "deflou\\": "src/"
+    }
+  }
+}
